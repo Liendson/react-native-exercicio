@@ -1,19 +1,19 @@
 import React from "react";
 import { View, StyleSheet } from "react-native";
-import MaxMin from "./componentes/MaxMin";
+import Formulario from "./componentes/Formulario";
 
-export default () =>  {
-    return (
-        <View style={style.App}>
-            <MaxMin min={7} max={99}/>
-        </View>
-    )
+export default () => {
+	return (
+		<View style={style.App}>
+			<Formulario />
+		</View>
+	)
 }
 
 const style = StyleSheet.create({
-    App: {
-        flexGrow: 1,
-        justifyContent: 'center',
-        alignItems: 'center'
-    },
+	App: {
+		flexGrow: 1,
+		justifyContent: 'center',
+		alignItems: 'center'
+	},
 })
